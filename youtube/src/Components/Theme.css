@@ -1,0 +1,72 @@
+/* Theme.css */
+
+.toggle-icon {
+    cursor: pointer;
+    margin-right: 12px;
+}
+
+.dark-theme {
+    background-color: rgb(24, 24, 24);
+    color: white;
+}
+
+.light-theme {
+    background-color: rgb(251, 249, 249);
+    color: rgb(0, 0, 0);
+}
+
+/* Add dark theme styles for Navbar, Sidebar, and Feed */
+.dark-theme .navbar, .dark-theme .sidebar, .dark-theme .feed {
+    background-color: black;
+    color: white;
+}
+
+.light-theme .navbar, .light-theme .sidebar, .light-theme .feed {
+    background-color: white;
+    color: black;
+}
+
+.nav-left .menu-icon,
+.nav-left .logo,
+.nav-middle .search-box input,
+.nav-middle .search-box .search-icon,
+.microphone-icon,
+.side-link,
+.card h2,
+.card h3,
+.card p {
+    transition: color 0.3s, background-color 0.3s, filter 0.3s;
+}
+
+.dark-theme .nav-left .menu-icon,
+.dark-theme .nav-left .logo,
+.dark-theme .nav-middle .search-box input,
+.dark-theme .nav-middle .search-box .search-icon,
+.dark-theme .microphone-icon,
+.dark-theme .side-link,
+.dark-theme .card h2,
+.dark-theme .card h3,
+.dark-theme .card p {
+    color: white;
+}
+
+.light-theme .nav-left .menu-icon,
+.light-theme .nav-left .logo,
+.light-theme .nav-middle .search-box input,
+.light-theme .nav-middle .search-box .search-icon,
+.light-theme .microphone-icon,
+.light-theme .side-link,
+.light-theme .card h2,
+.light-theme .card h3,
+.light-theme .card p {
+    color: black;
+}
+.dark-theme .logo {
+    filter: invert(1) sepia(0.4) saturate(100%) hue-rotate(1deg); /* Adjusted hue-rotate */
+    margin-top: 20px;
+}
+
+.logo
+{
+    margin-top: 20px;
+}

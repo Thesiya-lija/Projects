@@ -1,0 +1,26 @@
+.container {
+    padding-left: 17%;
+  
+    padding-right: 2%;
+    padding-bottom: 20px;
+    padding-top: 20px;
+  
+  }
+  
+  .light-theme .container
+  {
+    background: #f9f9f9;
+  }
+
+  .dark-theme .container
+  {
+    background: black;
+  }
+  
+  @media(max-width:900px)
+  {
+    .container{
+      padding-left: 5%;
+      padding-right: 5%;
+    }
+  }

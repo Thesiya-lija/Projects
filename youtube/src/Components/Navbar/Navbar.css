@@ -1,0 +1,68 @@
+nav {
+  padding: 10px 2%;
+  justify-content: space-between;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  background: #fff;
+  position: sticky;
+  top: 0;
+  z-index: 10;
+  height: 70px;
+}
+
+.nav-left .menu-icon {
+  width: 22px;
+  margin-right: 10px;
+  height: 70px;
+}
+
+.nav-left .logo {
+  width: 150px;
+  padding-bottom: 18px;
+  padding-left: 12px;
+}
+
+.nav-middle {
+  flex: 1; /* This will make the middle div take up the remaining space */
+  display: flex;
+  justify-content:center; /* Align items to the start */
+}
+
+.nav-middle .search-box {
+  border: 1px solid #ccc;
+  margin-left: 20px; /* Add some margin to separate it from the logo */
+  padding: 8px 12px;
+  border-radius: 25px;
+  display: flex;
+  align-items: center;
+}
+
+.nav-middle .search-box input {
+  width: 400px;
+  border: none;
+  outline: none;
+  background: transparent;
+  padding: 0;
+}
+
+.nav-middle .search-box .search-icon {
+  width: 15px;
+}
+
+.microphone-icon {
+  margin-left: 50px; /* Add margin between search box and microphone icon */
+}
+
+@media (max-width:900px) {
+  .menu-icon{
+    display: none;
+  }
+  
+  .logo{
+    width: 90px;
+  }
+  
+  .nav-middle .search-box input
+  {
+width: 100px;
+  }
+}
